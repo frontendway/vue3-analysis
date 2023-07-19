@@ -20,7 +20,6 @@ import { computed, ref } from 'vue'
 export default {
   setup () {
     const count = ref(1)
-    debugger
     const doubleCount = computed(() => count.value * 2)
 
     function addCount () {
