@@ -1,6 +1,8 @@
 import { createApp } from 'vue'
 import Computed from './Computed.vue'
 import Watch from './Watch.vue'
+import Diff1 from './Diff1.vue'
+import Diff2 from './Diff2.vue'
 
 /* 
   初始化流程
@@ -13,4 +15,4 @@ import Watch from './Watch.vue'
   7.生成 subTree 再 patch 一次到 dom
 */
 
-createApp(Watch).mount('#app')
+createApp(Diff2).mount('#app')
